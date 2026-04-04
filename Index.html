@@ -1,71 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>JS Loops — Exercícios de Estruturas de Repetição</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estruturas de Repetição</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <div class="scanline"></div>
+    <button onclick="ex1()">Ex 1 - For 1 a 10</button>
+    <button onclick="ex2()">Ex 2 - Tabuada</button>
+    <button onclick="ex3()">Ex 3 - Soma 1 a 100</button>
+    <button onclick="ex4()">Ex 4 - Pares 0 a 20</button>
+    <button onclick="ex5()">Ex 5 - Regressiva</button>
+    <button onclick="ex6()">Ex 6 - Objeto</button>
+    <button onclick="ex7()">Ex 7 - Média Notas</button>
+    <button onclick="ex8()">Ex 8 - Ímpares 1 a 50</button>
+    <button onclick="ex9()">Ex 9 - Contador</button>
 
-  <header>
-    <div class="header-left">
-      <span class="dot red"></span>
-      <span class="dot yellow"></span>
-      <span class="dot green"></span>
-    </div>
-    <div class="header-title">
-      <span class="prompt">~/js-loops</span>
-      <span class="blink">▌</span>
-    </div>
-    <div class="header-right">
-      <span class="badge">JS</span>
-      <span class="badge outline">9 exercícios</span>
-    </div>
-  </header>
-
-  <main>
-    <aside class="sidebar">
-      <div class="sidebar-label">EXERCÍCIOS</div>
-      <nav id="nav-list"></nav>
-    </aside>
-
-    <section class="content">
-      <div class="top-bar">
-        <span id="current-title" class="file-tab active">selecione um exercício</span>
-        <button id="run-all-btn" class="run-btn">▶ Executar Todos</button>
-      </div>
-
-      <div class="panels">
-        <div class="panel code-panel">
-          <div class="panel-header">
-            <span class="panel-icon">📄</span> código
-          </div>
-          <pre id="code-display" class="code-block"><span class="placeholder">// Selecione um exercício no menu lateral</span></pre>
-        </div>
-
-        <div class="panel output-panel">
-          <div class="panel-header">
-            <span class="panel-icon">⚡</span> output
-            <button id="clear-btn" class="clear-btn">limpar</button>
-          </div>
-          <div id="output" class="output-block">
-            <span class="placeholder">$ aguardando execução...</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="run-bar">
-        <button id="run-btn" class="run-exercise-btn" disabled>▶ Executar Exercício</button>
-        <span id="run-status" class="run-status"></span>
-      </div>
-    </section>
-  </main>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
